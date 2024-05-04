@@ -8,7 +8,7 @@ This data app shows a simple demonstration of an interactive data explorer that 
 
 ## Demo App
 
-[![Streamlit App](https://mdst-rmp-demo-alexmat.streamlit.app/)
+[![Streamlit App]([https://mdst-rmp-demo-alexmat.streamlit.app/](https://mdst-rmp-demo-alexmat.streamlit.app/#c00778cb))
 
 ## GitHub Codespaces
 
