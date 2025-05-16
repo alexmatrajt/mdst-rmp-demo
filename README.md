@@ -4,7 +4,7 @@ This interactive Streamlit app allows users to explore sentiment data for Univer
 
 ## Demo App
 
-[![Streamlit App]([[https://umich-rmp.streamlit.app/](https://umich-rmp.streamlit.app/)))
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://umich-rmp.streamlit.app/)
 
 ## Notes
 
