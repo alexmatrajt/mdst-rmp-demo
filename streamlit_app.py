@@ -2,16 +2,16 @@ import streamlit as st
 import pandas as pd
 
 # Page title
-st.set_page_config(page_title='Umich RMP Interactive Data Explorer', page_icon='📊')
-st.title('📊 Umich RMP Interactive Data Explorer')
+st.set_page_config(page_title='Interactive Data Explorer', page_icon='🧠')
+st.title('UMICH Rate My Professor Sentiment Analysis')
 
 with st.expander('About this app'):
   st.markdown('**What can this app do?**')
-  st.info('This app shows the michigan professor rating data based on polarity and emotion score')
+  st.info('This app provides visualization and interaction with our processed dataset webscraped from Ratemyprofessor.com')
   st.markdown('**How to use the app?**')
-  st.warning('To engage with the app, 1. Select class of your interest in the drop-down selection box and then 2. Select the year duration from the slider widget. As a result, this should generate an updated editable DataFrame and line plot.')
+  st.warning('Select desired data information with the dropdown menu and checkboxes')
   
-st.subheader('Sentient Analysis Results')
+st.subheader('Course Review')
 
 # Load data
 df = pd.read_csv('data/course_review_polarity_emotion_merged.csv')
