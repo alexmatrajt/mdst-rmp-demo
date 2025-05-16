@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # Page title
-st.set_page_config(page_title='Interactive Data Explorer', page_icon='🧠')
+st.set_page_config(page_title='🧠 Interactive Data Explorer', page_icon='📈')
 st.title('UMICH Rate My Professor Sentiment Analysis')
 
 with st.expander('About this app'):
